@@ -1,3 +1,26 @@
+/*Question:
+Write a Java program to calculate the binomial coefficient, which represents the number of ways to choose k elements from a set of n elements. 
+The binomial coefficient is given by the formula:
+ 
+Implement a function binomial_coefficient(n, k) that takes two integers n and k as input and returns the binomial coefficient.
+
+Sample Input:
+mathematica
+Copy code
+Enter value of n: 5
+Enter value of k: 2
+Sample Output:
+The binomial coefficient C(5, 2) is: 10
+Constraints:
+Assume n ≥ k ≥ 0.
+Factorial grows very fast, so handle the calculations carefully to avoid overflow for large n.
+This question is focused on using combinatorics to calculate the number of combinations possible for a given set of n elements. 
+
+Logic:
+The binomial factor is computed as n! / (k! * (n - k)!), where ! denotes the factorial of a number.
+*/
+
+
 import java.util.Scanner;
 
 public class BinomialFactorial {
